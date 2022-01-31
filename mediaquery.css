@@ -1,0 +1,159 @@
+@media all and (max-width:1790px) {
+    .heading-section img {
+        max-width: 800px;
+        
+    }
+    .heading-text h1{
+        font-size: 55px;
+    }
+    .heading-text h2:nth-child(4){
+        font-size: 30px;
+    }
+    .heading-text h3{
+        font-size: 17px;
+    }
+    .heading-text a{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:1565px) {
+
+    .heading-section img {
+        max-width:750px;
+    }
+    .heading-text {
+        margin-left: 90px;
+        margin-top:50px;
+    }
+    .heading-text h1{
+        font-size: 40px;
+    }
+    .heading-text h2{
+        font-size: 17px;
+    }
+    .heading-text h2:nth-child(4){
+        font-size: 18px;
+    }
+    .heading-text h3{
+        font-size: 13px;
+    }
+    .heading-text a{
+        font-size: 17px;
+    }
+    .heading-text div{
+        width: 80%;
+    }
+
+    
+    .about-content div h2 {
+        font-size: 30px;
+        
+    }
+
+    .about-content div p{
+        font-size: 16px;
+        line-height:22px;
+        margin-top: 30px;
+    }
+    .offer-heading h2{
+        font-size: 45px;
+    }
+    .offer-heading h2 span{
+        font-size: 60px;
+    }
+    .offer-section .pricing p{
+        padding:7px 20px;
+        
+    }
+    .contact-left>p{
+        margin-bottom:40px;
+        font-size:17px;
+
+    }
+
+    .contact-info{
+        font-size: 17px;
+    }
+
+    .contact-left{
+        padding:40px;
+    }
+
+}
+@media all and (max-width:1290px){
+    .heading-section img{
+        max-width: 600px;
+    }
+    .heading-text h1{
+        font-size: 35px;
+    }
+    .heading-text h2{
+        font-size: 13px;
+    }
+    .heading-text h2:nth-child(4){
+        font-size: 20px;
+        
+    }
+    .heading-text h3{
+        font-size: 11px;
+    }
+    .heading-text a{
+        font-size: 14px;
+    }
+    .heading-text div{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    .about-content div p{
+        font-size: 15px;
+        line-height:16px
+    }
+
+    .offer-section .pricing h2{
+        font-size: 25px;
+    }
+    .offer-section .pricing p{
+        font-size: 16px;
+    }
+
+    .offer-section .pricing p:last-child{
+        font-size: 35px;
+    }
+    .offer-section .pricing p:last-child span{
+        font-size: 20px;
+    }
+    .car-gallery{
+        justify-content: space-around;
+    }
+    .car-gallery div{
+        width: 40%;
+    }
+
+    .contact-section{
+        height:auto;
+        padding: 50px 0px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+   
+.contact-right {
+    clip-path:none;
+}
+
+.menu-social a{
+    margin-right: 30px;
+    font-size: 17px;
+}
+}
+
+@media all and (max-width:1000px) {
+    .heading-text h2:nth-child(4),
+    .heading-text h3 {
+        display: none;
+    }
+    .heading-section img {
+        max-width: 500px;
+    }
+  
